@@ -1,0 +1,166 @@
+:root {
+  /* primary */
+  --light-red: hsl(0, 100%, 67%);
+  --orange-yellow: hsl(39, 100%, 56%);
+  --green-teal: hsl(166, 100%, 37%);
+  --cobalt-blue: hsl(234, 85%, 45%);
+
+  /* gradient */
+  --light-slate-blue: hsl(252, 100%, 67%); /* background */
+  --light-royal-blue: hsl(241, 81%, 54%); /* background */
+
+  --violet-blue: hsla(256, 72%, 46%, 1); /* circle */
+  --persian-blue: hsla(241, 72%, 46%, 0); /* circle*/
+
+  /* neutral*/
+  --white: hsl(0, 0%, 100%);
+  --pale-blue: hsl(221, 100%, 96%);
+  --light-lavender: hsl(241, 100%, 89%);
+  --dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+@font-face {
+  font-family: "myFont";
+  src: url("./assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: myFont;
+}
+
+#result_portion {
+  width: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    var(--light-slate-blue),
+    var(--light-royal-blue)
+  );
+  color: white;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  padding: 5% 15%;
+
+  border-radius: 0 0 8% 8%;
+}
+
+body {
+  width: 100vw;
+}
+
+.title {
+  color: var(--pale-blue);
+}
+
+.circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-inline: auto;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  padding: 26%;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    -30deg,
+    var(--persian-blue),
+    var(--violet-blue)
+  );
+
+  margin-bottom: 10%;
+}
+
+.circle span:first-child {
+  font-size: 3.5rem;
+}
+
+.circle span:nth-child(2) {
+  width: 100px;
+  color: var(--light-slate-blue);
+}
+.description {
+  margin-top: 3%;
+  color: var(--pale-blue);
+}
+
+/* summary */
+#summary {
+  width: 100vw;
+  padding-inline: 3%;
+}
+
+.summary_title {
+  font-size: 1.1rem;
+}
+
+.button {
+  display: block;
+  justify-content: center;
+  width: 94%;
+  margin-top: 8%;
+  margin-inline: auto;
+  background-color: var(--dark-gray-blue);
+}
+
+/* responsive */
+
+@media (min-width: 768px) {
+  body {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+  }
+
+  #result_portion {
+    width: 50%;
+    border-radius: 8%;
+  }
+
+  #summary {
+    padding: 0;
+    border-radius: 8%;
+    text-align: start;
+    padding-bottom: 3%;
+  }
+
+  #container {
+    background-color: white;
+    border-radius: 35px;
+    box-shadow: 2px 5px 5px gainsboro;
+    border: 1px solid orange;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 450px) {
+  #result_portion,
+  #summary {
+    width: 90%;
+    margin-inline: auto;
+  }
+}
+
+@media (min-width: 600px) {
+  #result_portion,
+  #summary {
+    width: 75%;
+    margin-inline: auto;
+  }
+
+  #result_portion {
+    border-radius: 8%;
+    margin-top: 5%;
+  }
+}
