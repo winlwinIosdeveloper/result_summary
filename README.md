@@ -26,8 +26,9 @@ Users should be able to:
 - **Bonus**: Use the local JSON data to dynamically populate the content
 
 ### Screenshot
+![Screenshot from 2023-08-23 18-58-55](https://github.com/winlwinIosdeveloper/result_summary/assets/114051612/adf2e0da-312b-4031-ae5f-162b78b5b023)
 
-![](result_summary/screenshot from 2023-08-23 18-58-55.png?raw=true)
+
 
 
 ### Links
