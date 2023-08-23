@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./result_summary/screenshot from 2023-08-23 18-58-55.png?raw=true)
+![](result_summary/screenshot from 2023-08-23 18-58-55.png?raw=true)
 
 
 ### Links
