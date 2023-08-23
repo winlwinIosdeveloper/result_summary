@@ -61,7 +61,7 @@ const proudOfThisFunc = () => {
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [www.resultsummary.com](https://winlwiniosdeveloper.github.io/result_summary/)
 - Frontend Mentor - [@winlwinIosdeveloper](https://www.frontendmentor.io/profile/winlwinIosdeveloper)
 - GitHub - [@winlwinIosdeveloper](https://github.com/winlwinIosdeveloper)
 
