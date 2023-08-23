@@ -110,6 +110,10 @@ body {
   background-color: var(--dark-gray-blue);
 }
 
+#btn_continue:hover {
+  background-color: var(--light-royal-blue);
+}
+
 /* responsive */
 
 @media (min-width: 768px) {
@@ -138,7 +142,6 @@ body {
     background-color: white;
     border-radius: 35px;
     box-shadow: 2px 5px 5px gainsboro;
-    border: 1px solid orange;
     justify-content: center;
     align-items: center;
   }
@@ -161,6 +164,11 @@ body {
 
   #result_portion {
     border-radius: 8%;
-    margin-top: 5%;
+  }
+}
+
+@media (min-width: 700px) {
+  #container {
+    margin: 3%;
   }
 }
